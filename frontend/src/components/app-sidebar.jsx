@@ -49,20 +49,7 @@ import { useContext } from "react"
 import logo from '@/assets/joli_cropped.png'
 const data = {
   adminNav: [
-    {
-      NavGroup: {
-        NavLabel: 'Administration',
-        NavItems: [
-          { title: 'Dashboard', url: '/', icon: Gauge },
-          { title: 'Document Management', url: '/document-management', icon: FilesIcon },
-          { title: 'Notification Context', url: '/notification-context', icon: MessageCircleMoreIcon },
-          { title: 'Notification Modal', url: '/notification-modal', icon: MessageCircleMoreIcon },
-          { title: 'Role & Permission Management', url: '/role-permission-management', icon: TagsIcon },
-          { title: 'User Authentication', url: '/user-auth', icon: User },
-          { title: 'User Groups & Hierarchy', url: '/user-groups-hierarchy', icon: ListCheckIcon },
-        ],
-      },
-    },
+
     {
       NavGroup: {
         NavLabel: 'Legal',
@@ -80,7 +67,6 @@ const data = {
       NavGroup: {
         NavLabel: 'Facilities',
         NavItems: [
-          { title: 'Approval', url: '/facility/approval', icon: ScaleIcon },
           { title: 'Catalog', url: '/facility/catalog', icon: BookOpenCheckIcon },
           { title: 'Documents', url: '/facility/document', icon: FilesIcon },
           { title: 'Reservation', url: '/facility/reservation', icon: BookOpenCheckIcon },

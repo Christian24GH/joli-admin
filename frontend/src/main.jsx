@@ -23,7 +23,6 @@ import UserAuth from './administrative/user-auth'
 import UserGroupsHierarchy from './administrative/user-groups-hierarchy'
 
 /* Facility */
-import FacilityApproval from './administrative/Facility/Approval'
 import FacilityCatalog from './administrative/Facility/Catalog'
 import FacilityDocument from './administrative/Facility/Document'
 import FacilityReservation from './administrative/Facility/facility-reservation'
@@ -100,7 +99,6 @@ createRoot(document.getElementById("root")).render(
 
             {/* Facilities */}
             <Route path="facility">
-              <Route path="approval" element={<FacilityApproval />} />
               <Route path="catalog" element={<FacilityCatalog />} />
               <Route path="document" element={<FacilityDocument />} />
               <Route path="reservation" element={<FacilityReservation />} />
